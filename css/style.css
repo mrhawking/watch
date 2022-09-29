@@ -1,0 +1,196 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "League Spartan";
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+
+/*Header*/
+.header {
+  background-color: rgba(247, 247, 247, 0.7);
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  background-color: rgba(246, 244, 244, 0.5);
+
+}
+
+.mor705 {
+  width: 660px;
+  padding-top: 104px;
+}
+
+.mor705-wrapper {
+  display: flex;
+}
+
+.mor705-title {
+  margin-bottom: 53px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 186%;
+}
+
+.mor705-subtitle {
+  margin-bottom: 43px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 250px;
+  line-height: 230px;
+}
+
+.mor705-image {
+  width: 408px;
+  height: 720px;
+}
+
+.price {
+  display: flex;
+  margin-bottom: 168px;
+}
+
+.price-link {
+  display: block;
+  width: 278px;
+  height: 82px;
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 82px;
+  text-decoration: none;
+}
+
+.price-price {
+  display: block;
+  width: 183px;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 82px;
+}
+
+.mor705-description {
+  margin-bottom: 61px;
+  width: 575px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 155%;
+}
+
+/*Main*/
+
+
+.models-wrapper {
+  width: 515px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.models-title {
+  text-align: center;
+  margin-bottom: 84px;
+}
+
+.models-title span:first-of-type {
+  display: block;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 186%;
+}
+
+.models-title p:first-of-type {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 112.5%;
+}
+
+.article {
+
+  margin-bottom: 85px;
+}
+
+.article-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 29px;
+  text-align: center;
+}
+
+.article-background {
+  margin: 0 auto;
+  background-color: rgba(248, 248, 248, 1);
+  display: flex;
+}
+
+h3+.article div:first-child {
+  max-width: 417px;
+  height: 630px;
+}
+
+/* h3 + :not(.article div:first-child) {
+  max-width: 496px;
+  height: 630px;
+} */
+
+.article-img {
+  display: block;
+  margin: 0 auto;
+  align-self: center;
+}
+
+.article-description {
+  width: 100%;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 155%;
+  text-align: center;
+}
+
+.article-title {
+  padding-top: 67px;
+}
+
+.product-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.product-description {
+  font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 41px;
+text-align: center;
+}
+
